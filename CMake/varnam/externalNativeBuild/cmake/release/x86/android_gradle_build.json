@@ -1,0 +1,184 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/hari/Desktop/working/CMake/varnam/src/main/cpp/CMakeLists.txt",
+		"/home/hari/Desktop/working/CMake/varnam/src/main/cpp/deps/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"deps-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "deps",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86 --target deps",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/deps/sqlite3.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/deps/snprintf.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/deps/parson.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/deps/strdup.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"toolchain" : "5978353632386904001"
+		},
+		"varnam-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "varnam",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86 --target varnam",
+			"buildType" : "release",
+			"output" : "/home/hari/Desktop/working/CMake/varnam/build/intermediates/cmake/release/obj/x86/libvarnam.so",
+			"toolchain" : "5978353632386904001"
+		},
+		"varnam_core-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "varnam_core",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86 --target varnam_core",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/util.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/lru_cache.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/vutf8.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/trie.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/strbuf.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/transliterate.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/symbol-table.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/words-table.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/varray.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/token.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/vword.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/learn.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/rendering.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/lang_detection.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/renderer/ml_unicode.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : " -DHAVE_SNPRINTF -DNEED_ASPRINTF -DPREFER_PORTABLE_SNPRINTF -DSQLITE_CASE_SENSITIVE_LIKE -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DVARNAM_VERSION=\\\"3.2.5\\\"  -Wall -ansi -pedantic -Wno-long-long -Wconversion -Wformat=2 -Wshadow -Wcast-qual -Wwrite-strings -fPIC -O2        ",
+					"src" : "/home/hari/Desktop/working/CMake/varnam/src/main/cpp/varnam.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"toolchain" : "5978353632386904001"
+		},
+		"varnamstatic-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "varnamstatic",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86 --target varnamstatic",
+			"buildType" : "release",
+			"output" : "/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/x86/libvarnamstatic.a",
+			"toolchain" : "5978353632386904001"
+		}
+	},
+	"toolchains" : 
+	{
+		"5978353632386904001" : 
+		{
+			"cCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

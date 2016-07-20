@@ -1,0 +1,117 @@
+
+{
+	"buildFiles" : [ "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"TeapotNativeActivity-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "TeapotNativeActivity",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi --target TeapotNativeActivity",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/TeapotNativeActivity.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/TeapotRenderer.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/GLContext.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/JNIHelper.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/gestureDetector.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : " -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC        ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/gl3stub.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/interpolator.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/perfMonitor.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/shader.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/tapCamera.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -DTeapotNativeActivity_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -fno-exceptions -fno-rtti -Os -DNDEBUG  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/ndk_helper/vecmath.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/home/hari/Desktop/working/CMake/Teapot/build/intermediates/cmake/release/obj/armeabi/libTeapotNativeActivity.so",
+			"toolchain" : "5978353632386904001"
+		},
+		"app-glue-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "app-glue",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi --target app-glue",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/Teapot/src/main/cpp/./ndk_helper -I/home/hari/Downloads/android-ndk-r12b/sources/android/cpufeatures  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC        ",
+					"src" : "/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/release/armeabi/libapp-glue.a",
+			"toolchain" : "5978353632386904001"
+		}
+	},
+	"toolchains" : 
+	{
+		"5978353632386904001" : 
+		{
+			"cCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

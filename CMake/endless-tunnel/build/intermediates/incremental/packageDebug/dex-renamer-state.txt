@@ -1,0 +1,4 @@
+#Wed Jul 20 01:04:04 IST 2016
+base.0=/home/hari/Desktop/working/CMake/endless-tunnel/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/hari/Desktop/working/CMake/endless-tunnel/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

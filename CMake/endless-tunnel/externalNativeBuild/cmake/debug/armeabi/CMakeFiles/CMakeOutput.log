@@ -1,0 +1,194 @@
+The target system is: Android - 9 - armv5te
+The host system is: Linux - 4.2.0-27-generic - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/hari/Android/Sdk/cmake/3.6/bin/ninja" "cmTC_e8fe7"
+[1/2] Building C object CMakeFiles/cmTC_e8fe7.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_e8fe7
+clang: warning: argument unused during compilation: '-Wa,--noexecstack'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/hari/Android/Sdk/cmake/3.6/bin/ninja" "cmTC_c2082"
+[1/2] Building C object CMakeFiles/cmTC_c2082.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_c2082
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: armv5te-none-linux-android
+Thread model: posix
+InstalledDir: /home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+clang: warning: argument unused during compilation: '-Wa,--noexecstack'
+ "/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm -z relro -X --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c2082 /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c2082.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/hari/Android/Sdk/cmake/3.6/bin/ninja" "cmTC_c2082"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_c2082.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_c2082]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: armv5te-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  ignore line: [clang: warning: argument unused during compilation: '-Wa,--noexecstack']
+  link line: [ "/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm -z relro -X --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c2082 /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c2082.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-X] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c2082] ==> ignore
+    arg [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_c2082.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib] ==> [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib] ==> [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+  implicit libs: [dl;c;dl]
+  implicit dirs: [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/hari/Android/Sdk/cmake/3.6/bin/ninja" "cmTC_258ff"
+[1/2] Building CXX object CMakeFiles/cmTC_258ff.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_258ff
+clang++: warning: argument unused during compilation: '-Wa,--noexecstack'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/hari/Android/Sdk/cmake/3.6/bin/ninja" "cmTC_4292d"
+[1/2] Building CXX object CMakeFiles/cmTC_4292d.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_4292d
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: armv5te-none-linux-android
+Thread model: posix
+InstalledDir: /home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+clang++: warning: argument unused during compilation: '-Wa,--noexecstack'
+ "/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm -z relro -X --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4292d /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4292d.dir/CMakeCXXCompilerABI.cpp.o /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a -latomic -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/hari/Android/Sdk/cmake/3.6/bin/ninja" "cmTC_4292d"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_4292d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_4292d]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: armv5te-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  ignore line: [clang++: warning: argument unused during compilation: '-Wa,--noexecstack']
+  link line: [ "/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm -z relro -X --build-id --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4292d /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib -L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4292d.dir/CMakeCXXCompilerABI.cpp.o /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a -latomic -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtend_android.o]
+    arg [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-X] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4292d] ==> ignore
+    arg [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib] ==> dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_4292d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [/home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a] ==> lib [/home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a]
+    arg [-latomic] ==> lib [atomic]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib] ==> [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib/../lib] ==> [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib] ==> [/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+  implicit libs: [/home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a;atomic;stdc++;m;dl;c;dl]
+  implicit dirs: [/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/hari/Downloads/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/hari/Downloads/android-ndk-r12b/platforms/android-9/arch-arm/usr/lib]
+  implicit fwks: []
+
+

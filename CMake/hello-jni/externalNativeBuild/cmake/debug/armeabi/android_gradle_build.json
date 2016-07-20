@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/hari/Desktop/working/CMake/hello-jni/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"hello-jni-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "hello-jni",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/debug/armeabi --target hello-jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -Dhello_jni_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC        ",
+					"src" : "/home/hari/Desktop/working/CMake/hello-jni/src/main/cpp/hello-jni.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/home/hari/Desktop/working/CMake/hello-jni/build/intermediates/cmake/debug/obj/armeabi/libhello-jni.so",
+			"toolchain" : "5978353632386904001"
+		}
+	},
+	"toolchains" : 
+	{
+		"5978353632386904001" : 
+		{
+			"cCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

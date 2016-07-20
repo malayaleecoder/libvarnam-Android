@@ -1,0 +1,14 @@
+Executable : /home/hari/Android/Sdk/cmake/3.6/bin/cmake
+arguments : 
+-H/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp
+-B/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/x86_64
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=/home/hari/Downloads/android-ndk-r12b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/hari/Desktop/working/CMake/endless-tunnel/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/home/hari/Android/Sdk/cmake/3.6/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/home/hari/Android/Sdk/cmake/3.6/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=21
+jvmArgs : 
+

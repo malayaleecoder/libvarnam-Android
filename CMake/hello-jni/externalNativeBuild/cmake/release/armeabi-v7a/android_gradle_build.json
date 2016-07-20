@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/hari/Desktop/working/CMake/hello-jni/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"hello-jni-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "hello-jni",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/release/armeabi-v7a --target hello-jni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : " -Dhello_jni_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC        ",
+					"src" : "/home/hari/Desktop/working/CMake/hello-jni/src/main/cpp/hello-jni.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/hari/Desktop/working/CMake/hello-jni/build/intermediates/cmake/release/obj/armeabi-v7a/libhello-jni.so",
+			"toolchain" : "5978353632386904001"
+		}
+	},
+	"toolchains" : 
+	{
+		"5978353632386904001" : 
+		{
+			"cCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

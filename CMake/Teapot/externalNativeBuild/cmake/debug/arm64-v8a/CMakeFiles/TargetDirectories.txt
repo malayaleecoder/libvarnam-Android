@@ -1,0 +1,4 @@
+/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/TeapotNativeActivity.dir
+/home/hari/Desktop/working/CMake/Teapot/externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/app-glue.dir

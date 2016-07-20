@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libvarnam
+
+Name: Varnam (Static library)
+Description: A transliteration library for Indian languages
+URL: http://varnamproject.com
+Version: 3.2.5
+Libs: -L${libdir} -lvarnamstatic
+Cflags: -I${includedir} -DHAVE_SNPRINTF -DPREFER_PORTABLE_SNPRINTF -DNEED_ASPRINTF

@@ -1,0 +1,3 @@
+/home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+/home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/home/hari/Desktop/working/CMake/hello-jni/externalNativeBuild/cmake/release/x86/CMakeFiles/hello-jni.dir

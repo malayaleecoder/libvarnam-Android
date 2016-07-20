@@ -1,0 +1,15 @@
+# ninja log v5
+0	409	0	CMakeFiles/app-glue.dir/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue/android_native_app_glue.c.o	ead13e24de685fb1
+409	415	0	libapp-glue.a	83cbd94419f2f613
+415	769	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/GLContext.cpp.o	a4d9bc41f91cbfbf
+416	811	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/interpolator.cpp.o	32661d24930a2bfc
+769	848	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/gl3stub.c.o	c779d8f6c68cc34
+416	972	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/gestureDetector.cpp.o	eb923ac07e53042a
+415	1234	0	CMakeFiles/TeapotNativeActivity.dir/TeapotRenderer.cpp.o	75a0581d0e0fc06b
+811	1292	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/perfMonitor.cpp.o	8a5df9cc0524d53c
+415	1301	0	CMakeFiles/TeapotNativeActivity.dir/TeapotNativeActivity.cpp.o	862ef9b2534ed597
+848	1399	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/shader.cpp.o	c5bd830813dd10ab
+415	1457	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/JNIHelper.cpp.o	ffc5c68a642a2fac
+972	1479	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/tapCamera.cpp.o	8f8bb6c89c9c3793
+1234	1540	0	CMakeFiles/TeapotNativeActivity.dir/ndk_helper/vecmath.cpp.o	489ed8128822b59b
+1540	1910	0	/home/hari/Desktop/working/CMake/Teapot/build/intermediates/cmake/debug/obj/x86/libTeapotNativeActivity.so	d3116adca63e4e90

@@ -1,0 +1,6 @@
+include ':hello-jni'
+include ':hello-jniCallback'
+include ':gen-libs'
+include ':endless-tunnel'
+include ':Teapot'
+include ':varnam'

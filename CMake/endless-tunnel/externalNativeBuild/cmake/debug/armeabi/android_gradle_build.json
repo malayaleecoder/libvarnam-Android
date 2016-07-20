@@ -1,0 +1,204 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"app-glue-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "app-glue",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi --target app-glue",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info         ",
+					"src" : "/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi/libapp-glue.a",
+			"toolchain" : "5978353632386904001"
+		},
+		"game-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "game",
+			"buildCommand" : "/home/hari/Android/Sdk/cmake/3.6/bin/cmake --build /home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi --target game",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/android_main.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/anim.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/ascii_to_geom.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/dialog_scene.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/glm/detail/glm.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/indexbuf.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/input_util.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/jni_util.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/native_engine.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/obstacle.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/obstacle_generator.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/our_shader.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/play_scene.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/scene.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/scene_manager.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/sfxman.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/shader.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/shape_renderer.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/tex_quad.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/text_renderer.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/texture.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/ui_scene.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/util.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/vertexbuf.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -Dgame_EXPORTS -I/home/hari/Downloads/android-ndk-r12b/sources/android/native_app_glue -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/. -I/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/./data -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/hari/Downloads/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info  -fPIC      ",
+					"src" : "/home/hari/Desktop/working/CMake/endless-tunnel/src/main/cpp/welcome_scene.cpp",
+					"workingDirectory" : "/home/hari/Desktop/working/CMake/endless-tunnel/externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/home/hari/Desktop/working/CMake/endless-tunnel/build/intermediates/cmake/debug/obj/armeabi/libgame.so",
+			"toolchain" : "5978353632386904001"
+		}
+	},
+	"toolchains" : 
+	{
+		"5978353632386904001" : 
+		{
+			"cCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/hari/Downloads/android-ndk-r12b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

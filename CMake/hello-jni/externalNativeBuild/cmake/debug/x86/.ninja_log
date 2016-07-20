@@ -1,0 +1,3 @@
+# ninja log v5
+0	89	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	e5431334bfd625c8
+89	110	0	/home/hari/Desktop/working/CMake/hello-jni/build/intermediates/cmake/debug/obj/x86/libhello-jni.so	13b279244eacf41d

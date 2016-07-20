@@ -1,0 +1,135 @@
+3.2.5 / Jul 01, 2015
+=======================
+* Mapping rr in Kannada
+* Import words will validate the word belongs to the current scheme
+* Fixing warning when compiling ml scheme
+* Added a period token type to handle devanagari DANDA
+* Mapping Kannada length mark
+* Fixing Marathi mapping where "aani" was not working
+
+3.2.4 / Jun 01, 2015
+=======================
+* Added support for Assamese
+* Added support for Bengali
+* Language name update to Odia
+* Mapping fixes for Kannada
+* Using a portable strdup
+* Fixed FFI not loading on Debian systems
+* Telugu is marked as stable
+*  Added varnam_get_corpus_details() API
+*  Renaming varnam_get_scheme_details() to varnam_get_all_handles
+
+3.2.3 / Apr 24, 2015
+=======================
+
+* Performance optimization for learn. Learn runs 50%+ faster now
+* varnamc gives meaningful error messages when learn fails
+* Sqlite upgraded to 3.8.9
+* varnam_get_all_schemes is renamed to varnam_get_all_handles
+
+3.2.2 / Apr 21, 2015
+=======================
+
+* Build will add _FORTIFY_SOURCE option
+* EMBED_SQLITE build flag. Allows to use SQLite shared library
+* Readme is no longer a symlink
+* DISABLE_WITHOUT_ROW_ID_OPTIMIZATION compiler flag
+* Export & Import uses JSON structure
+* make vst will use relative path to varnamc
+
+3.2.1 / Mar 18, 2015
+=======================
+
+* Gujarati support (Experimental)
+* Nepali support (Experimental)
+* Marathi support (Experimental)
+* Oriya support (Experimental)
+* Telugu support
+* Cleaned up building VST files
+
+3.2.0 / Feb 09, 2015
+=======================
+
+* Kannada support
+* Punjabi support
+* Experimental support for Tamil
+* Experimental support for Sanskrit
+* Malayalam inscript
+* Renaming varnam_init_from_lang to varnam_init_from_id
+* [Malayalam] Removing mapping : to visarga. Fixes #89
+* varnamc can display scheme details
+* Marked Hindi as stable
+* A new stemmer (Kevin Martin Jose)
+
+3.1.4 / July 02, 2014
+=======================
+* Improved storage for learnings file. Using NO_ROWID (Kevin Martin Jose)
+* strbuf_chars() function to return unicode characters
+* Updated Malayalam scheme file
+* Updated Hindi scheme file (Jaydeep)
+
+3.1.3 / Mar 07, 2014
+=======================
+* varnam_init_from_lang will make the suggestions directory
+* Fixed varnam_init_from_lang() to set errors correctly
+* Adding MultiArch directories to varnamc search path
+* Added uninstall target
+* MultiArch support to the build system
+* Added manpages for varnamc
+
+3.1.2 / Mar 03, 2014
+=======================
+* Fixed a bug which was causing transliteration to fail while learn was happening
+* Fixed out of source build
+* Fixed varnamc export
+* Using 30000 as export size
+* Installing varnamruby.rb to the correct location (prefix/lib)
+
+3.1.1 / Jan 18, 2014
+=======================
+* Fixing a segfault
+
+
+3.1.0 / Jan 16, 2014
+=======================
+* Performance improvements to learn
+* New API function - varnam_init_from_lang
+* Schema version gets stamped on VST files
+* vanamc compile no longer generates verbose output
+* `make vst` target to generate VST files
+* Fixing duplicate tokens appearing in tokens list
+* Learned on will be a unix timestamp
+* New API function - varnam_is_known_word
+* Fixes to Malayalam symbols
+
+2.2.0 / Jun 16, 2013
+=======================
+* While learning a word, few more unwanted tokens will be rejected.
+* varnamc learn will use the output directory if specified.
+* Small corrections to Malayalam scheme file.
+* Major improvements to Hindi scheme file.
+* Learn errors will be logged in the learn failures file.
+* varnamc is usable outside the source directory
+
+2.1.0 / Jun 02, 2013
+=======================
+* Support for Hindi.
+* Support for custom lists in the scheme file.
+* Improvements to learning algorithm.
+
+2.0.0 / Mar 30, 2013
+=======================
+* Several improvements to tokenization algorithm which improves quality of learning.
+* Noice reduction while tokenization.
+* Improved symbols file for Malayalam.
+* varnam_export_words() function to export words learned.
+* Accept condition for tokens which specifies rules for token acceptance based on the token position.
+
+1.0.1 / Nov 1, 2012
+=======================
+* Initial release
+
+
+Copyright (C) Navaneeth.K.N
+
+This is part of libvarnam. See LICENSE.txt for the license

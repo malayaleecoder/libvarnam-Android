@@ -1,0 +1,14 @@
+Executable : /home/hari/Android/Sdk/cmake/3.6/bin/cmake
+arguments : 
+-H/home/hari/Desktop/working/CMake/varnam/src/main/cpp
+-B/home/hari/Desktop/working/CMake/varnam/externalNativeBuild/cmake/release/armeabi-v7a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/home/hari/Downloads/android-ndk-r12b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/hari/Desktop/working/CMake/varnam/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/home/hari/Android/Sdk/cmake/3.6/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/home/hari/Android/Sdk/cmake/3.6/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=15
+jvmArgs : 
+

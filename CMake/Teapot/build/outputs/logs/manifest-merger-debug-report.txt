@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:1:1-32:12
+	package
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:2:11-38
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:4:11-36
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:3:11-34
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:1:11-69
+uses-feature#0x00020000
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:6:3-65
+	android:glEsVersion
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:6:17-49
+application
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:8:3-31:17
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:13:7-39
+	android:supportsRtl
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:11:7-33
+	android:fullBackupContent
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:10:7-40
+	android:allowBackup
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:9:7-34
+	android:icon
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:12:7-41
+	android:theme
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:14:7-38
+	android:name
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:15:7-57
+activity#com.sample.teapot.TeapotNativeActivity
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:20:5-30:16
+	android:label
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:21:15-47
+	android:configChanges
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:22:15-65
+	android:name
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:20:15-68
+meta-data#android.app.lib_name
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:24:7-25:57
+	android:value
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:25:18-54
+	android:name
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:24:18-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:26:7-29:23
+action#android.intent.action.MAIN
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:27:9-61
+	android:name
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:27:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:28:9-69
+	android:name
+		ADDED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml:28:19-66
+uses-sdk
+INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/hari/Desktop/working/CMake/Teapot/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
+		INJECTED from /home/hari/Desktop/working/CMake/Teapot/src/main/AndroidManifest.xml
